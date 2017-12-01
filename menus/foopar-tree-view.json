@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle foopar-tree-view",
+        "command": "foopar-tree-view:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "foopar-tree-view",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "foopar-tree-view:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
